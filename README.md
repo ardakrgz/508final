@@ -26,8 +26,8 @@ Using publicly available RNA-Seq data from the study, I replicated the bioinform
 
 Samples used:
 
-* **WT (BY4741\_A, BY4741\_B)**
-* **sis2Δ (sis2\_Delta\_A, sis2\_Delta\_B)**
+* **Wild-Types: WT (BY4741\_A, BY4741\_B)**
+* **Sis2 gene deletion: sis2Δ (sis2\_Delta\_A, sis2\_Delta\_B)**
 
 ## Directory Structure
 
@@ -42,7 +42,7 @@ Samples used:
 ## Tools & Environments
 
 * Galaxy (usegalaxy.org and usegalaxy.eu)
-* FASTQC (v0.12.1, Galaxy Version 0.74+galaxy1), MultiQC (v1.27), Cutadapt (v5.0), RNA STAR (v2.7.11a), featureCounts (v2.1.1), DESeq2 (v2.11.40.8), goseq (v.1.50.0)
+* FASTQC (v0.12.1), MultiQC (v1.27), Cutadapt (v5.0), RNA STAR (v2.7.11a), featureCounts (v2.1.1), DESeq2 (v2.11.40.8), goseq (v.1.50.0)
 * R (v4.4.1): pathview, goseq
 * Reference genome: *S. cerevisiae* R64 (sacCer3)
 
@@ -63,7 +63,7 @@ Samples used:
 
 ## Biological Interpretation
 
-* The DEGs and enriched pathways suggest **metabolic reprogramming** and **stress response activation** following Sis2 deletion.
+* The DEGs and enriched pathways suggest metabolic reprogramming and stress response activation following *Sis2* deletion.
 * Results align with the original paper’s finding that *Sis2* deletion increases replicative lifespan through metabolic shifts and possibly reduced CoA levels.
 
 ## Limitations
