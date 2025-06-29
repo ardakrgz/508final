@@ -3,16 +3,18 @@
 
 ## Project Summary
 
-This repository presents a reproducibility project based on the study:
+This repository presents a reproducibility project based on this open access study:
 
 **Sis2 regulates yeast replicative lifespan in a dose-dependent manner**
 [https://doi.org/10.1038/s41467-023-43233-y](https://doi.org/10.1038/s41467-023-43233-y)
 
-Using publicly available RNA-seq data from the study, I replicated the bioinformatics workflow to investigate transcriptional changes caused by the deletion of the **Sis2** gene in *Saccharomyces cerevisiae*. This reanalysis was conducted as a final project for a graduate-level bioinformatics course.
+Using publicly available RNA-Seq data from the study, I replicated the bioinformatics workflow to investigate transcriptional changes caused by the deletion of the **Sis2** gene in *Saccharomyces cerevisiae*. This reanalysis was conducted as a final project for a graduate-level bioinformatics course at Informatics Institute, Middle East Technical University.
+
+> This is an independent replication for educational purposes only. All credit for the dataset and original study goes to the authors of Ölmez et al. (2023).
 
 ## Goals
 
-* Reproduce RNA-seq analysis steps: QC, alignment, quantification, differential expression.
+* Reproduce RNA-seq analysis steps: Quality control, alignment, quantification, differential expression.
 * Interpret results in the context of aging and metabolism.
 * Perform GO and KEGG enrichment analysis.
 * Practice troubleshooting and open science documentation.
@@ -20,7 +22,7 @@ Using publicly available RNA-seq data from the study, I replicated the bioinform
 ## Data Sources
 
 * GEO Accession: [GSE205228](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205228)
-* SRA Study ID: [SRP377849](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP377849)
+* SRA Study ID: [SRP377849](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=study&acc=SRP377849)
 
 Samples used:
 
@@ -40,8 +42,8 @@ Samples used:
 ## Tools & Environments
 
 * Galaxy (usegalaxy.org and usegalaxy.eu)
-* FASTQC, Cutadapt, RNA STAR, featureCounts, DESeq2, goseq
-* R (v4.3+): pathview, goseq
+* FASTQC (v0.12.1, Galaxy Version 0.74+galaxy1), MultiQC (v1.27), Cutadapt (v5.0), RNA STAR (v2.7.11a), featureCounts (v2.1.1), DESeq2 (v2.11.40.8), goseq (v.1.50.0)
+* R (v4.4.1): pathview, goseq
 * Reference genome: *S. cerevisiae* R64 (sacCer3)
 
 ## Analysis Workflow
@@ -79,7 +81,3 @@ Samples used:
 
 * Ölmez et al., 2023. *Sis2 regulates yeast replicative lifespan in a dose-dependent manner*. [Nature Communications](https://doi.org/10.1038/s41467-023-43233-y)
 * Krisko & Kennedy, 2021. *Yeast as a model organism for aging research.* Handbook of the Biology of Aging.
-
----
-
-> This is an independent replication for educational purposes only. All credit for the dataset and original study goes to the authors of Ölmez et al. (2023).
