@@ -79,5 +79,6 @@ Samples used:
 
 ## References
 
+* Krisko & Kennedy, 2021. *Yeast as a model organism for aging research.* [Handbook of the Biology of Aging](https://doi.org/10.1016/B978-0-12-815962-0.00008-1) 
 * Ölmez et al., 2023. *Sis2 regulates yeast replicative lifespan in a dose-dependent manner*. [Nature Communications](https://doi.org/10.1038/s41467-023-43233-y)
-* Krisko & Kennedy, 2021. *Yeast as a model organism for aging research.* Handbook of the Biology of Aging.
+* Steffen, K. K., Kennedy, B. K., & Kaeberlein, M., 2009. *Measuring replicative life span in the budding yeast*. [Journal of Visualized Experiments](https://doi.org/10.3791/1209)
