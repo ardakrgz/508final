@@ -4,5 +4,5 @@
 - SRA Study ID: [SRP377849](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=study&acc=SRP377849)
 
 Samples:
-- Wild-Types BY4741\_A (GSM6208859), BY4741\_B (GSM6208860)
+- Wild-Types: BY4741\_A (GSM6208859), BY4741\_B (GSM6208860)
 - Sis2 gene deletion: sis2\_Delta\_A (GSM6208861), sis2\_Delta\_B (GSM6208861)

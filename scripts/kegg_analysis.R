@@ -1,7 +1,6 @@
 library(goseq)
 library(ggplot2)
 library(KEGGREST)
-library(pathview)
 
 # Step 1: Load DEG info
 deg <- read.table("tsv_diff_ex.txt", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
