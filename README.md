@@ -1,4 +1,3 @@
-# 508final
 # Reanalysis of RNA-seq Data from Sis2 Deletion in Yeast
 
 ## Project Summary
