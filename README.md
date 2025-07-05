@@ -48,7 +48,7 @@ Samples used:
 
 ## Analysis Workflow
 
-1. **Quality Control**: FASTQC → MultiQC → Cutadapt → FASTQC (again)
+1. **Quality Control**: FASTQC → MultiQC → Cutadapt → FASTQC → MultiQC
 2. **Alignment & Counting**: RNA STAR → featureCounts
 3. **Differential Expression**: DESeq2
 4. **GO Enrichment**: Galaxy `goseq` and R `goseq`
