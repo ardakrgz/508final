@@ -33,9 +33,8 @@ Samples used:
 ```
 ├── data/                # Links and metadata for raw data
 ├── scripts/             # Galaxy histories and R scripts
-├── results/             # Output files, figures
-├── docs/                # Final report and references
-└── README.md            # Project overview
+├── results/             # Figures and plots
+└── README.md            # Overview
 ```
 
 ## Tools & Environments
@@ -51,7 +50,7 @@ Samples used:
 2. **Alignment & Counting**: RNA STAR → featureCounts
 3. **Differential Expression**: DESeq2
 4. **GO Enrichment**: Galaxy `goseq` and R `goseq`
-5. **KEGG Analysis**: R `pathview` (partial), KEGG Mapper (manual)
+5. **KEGG Analysis**: KEGG Mapper
 
 ## Key Results
 
