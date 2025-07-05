@@ -1,23 +1,18 @@
-# R & Galaxy
 .Rhistory
 .RData
 .Rproj.user/
 *.ga
 
-# Temporary files
 *.log
 *.aux
 *.out
 *.tmp
 
-# OS-specific
 .DS_Store
 Thumbs.db
 
-# PDF report output
 *.pdf
 
-# Ignore big data files if any
 *.fastq*
 *.bam
 *.sam
